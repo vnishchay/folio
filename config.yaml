@@ -3,8 +3,6 @@ title: "Nishchay's Portfolio"
 theme: hugo-profile
 
 Paginate: 3
-# disqusShortname: gurusabarish
-# googleAnalytics: G-DWJJVE27WD
 
 markup:
   goldmark:
@@ -125,6 +123,17 @@ params:
   experience:
     enable: true
     items:
+      - job: "Software Development Intern"
+        company: "Wink.finance"
+        # companyUrl: "https://example.com"
+        date: "Sep 2022 - current"
+        featuredLink:
+          enable: true
+          # url: "https://play.google.com/store/apps/details?id=ml.campusmedia.userapp"
+        info:
+          enable: true
+        content: Working with Smart contract and UI/UX team to create the web3 project.
+        # content: 
       - job: "Technical Content Intern"
         company: "Newton School"
         companyUrl: "https://www.newtonschool.co/computerscience?utm_source=Ads&utm_medium=CS_Googlesmart+ADs&utm_campaign=Mia_CS_Googlesmart+ADs&gclid=CjwKCAjwquWVBhBrEiwAt1Kmwhrb70w4IRvw-uuclQ7GH0IgV5jWMWunQOaMxOxK8wRnB8ESHkoVtBoCWkYQAvD_BwE"
@@ -146,6 +155,7 @@ params:
           enable: true
         content: Worked on Campus Media application as a software developer intern. Created firebase functions, managed firebase backend and created/fixed features on the application.
         # content: 
+      
 
 
     
@@ -193,6 +203,14 @@ params:
       - title: Google Hash Code 
         content: Secured AIR 417 and 1513 Global rank 
         # url: https://example.com
+
+      - title: Geeks for Geeks Jobathon 
+        content: Secured AIR 49  
+        # url: https://example.com
+      
+      #  - title:  
+      #   content: Secured AIR 417 and 1513 Global rank 
+      #   # url: https://example.com
     
    
    
@@ -203,7 +221,7 @@ params:
     items:
       - title: Interviwe Zone
         content: An interview website, where people can connect and conduct interview
-        image: /images/projects/profile.png
+        image: /images/interview-zone.png
         featured:
           name: Github
           link: https://github.com/codernishchay/interview-zone
