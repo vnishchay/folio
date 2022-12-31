@@ -132,21 +132,22 @@ params:
           # url: "https://play.google.com/store/apps/details?id=ml.campusmedia.userapp"
         info:
           enable: true
-        content: Working with Smart contract and UI/UX team to create the web3 project.
+        content: Worked closely with the design team to create a user-friendly and visually appealing landing page and cryptocurrency exchange frontend from scratch.
+                 Utilized a range of development skills, including HTML, CSS, JavaScript, and React, to build the frontend and ensure a smooth user experience.
+                 Collaborated with the blockchain team to integrate the exchange frontend with the underlying blockchain infrastructure, ensuring seamless functionality and security for users.
+
         # content: 
-      - job: "Technical Content Intern"
+      - job: "Software Development Intern"
         company: "Newton School"
         companyUrl: "https://www.newtonschool.co/computerscience?utm_source=Ads&utm_medium=CS_Googlesmart+ADs&utm_campaign=Mia_CS_Googlesmart+ADs&gclid=CjwKCAjwquWVBhBrEiwAt1Kmwhrb70w4IRvw-uuclQ7GH0IgV5jWMWunQOaMxOxK8wRnB8ESHkoVtBoCWkYQAvD_BwE"
         date: "Jan 2022 - present"
         featuredLink:
           enable: false
-          # name: "View the project"
-          # url: "https://example.com"
-        content: "- Worked closely with the design team to create a user-friendly and visually appealing landing page and cryptocurrency exchange frontend from scratch.
-- Utilized a range of development skills, including HTML, CSS, JavaScript, and React, to build the frontend and ensure a smooth user experience.
-- Collaborated with the blockchain team to integrate the exchange frontend with the underlying blockchain infrastructure, ensuring seamless functionality and security for users."
-
-      - job: "Android Developer"
+        content: Focused on the frontend development of the project, using reusable components and structured coding practices to reduce redundancies and improve efficiency.
+                 Improved the user experience by conducting testing using the Cypress framework to ensure a smooth and reliable product.
+                 Demonstrated strong attention to detail and a commitment to delivering high-quality work by implementing thorough testing and debugging processes.
+        
+      - job: "Software Development Intern"
         company: "Campus Media"
         # companyUrl: "https://example.com"
         date: "Feb 2020 - Apr 2021"
@@ -155,8 +156,9 @@ params:
           url: "https://play.google.com/store/apps/details?id=ml.campusmedia.userapp"
         info:
           enable: true
-        content: Worked on Campus Media application as a software developer intern. Created firebase functions, managed firebase backend and created/fixed features on the application.
-        # content: 
+        content: Improved the usability of the product by adding enhancements to the user interface and the "Receive Sharing Intent" feature, leading to increased adoption among over 500 users.
+                 Implemented cloud trigger functions to enable the sending of notifications to users.
+                 Demonstrated the ability to identify and address user needs by adding features that enhanced the product's functionality and usability.
       
 
 
