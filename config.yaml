@@ -142,7 +142,9 @@ params:
           enable: false
           # name: "View the project"
           # url: "https://example.com"
-        content: "I am currently working as a full stack developer intern at Newton School. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "- Worked closely with the design team to create a user-friendly and visually appealing landing page and cryptocurrency exchange frontend from scratch.
+- Utilized a range of development skills, including HTML, CSS, JavaScript, and React, to build the frontend and ensure a smooth user experience.
+- Collaborated with the blockchain team to integrate the exchange frontend with the underlying blockchain infrastructure, ensuring seamless functionality and security for users."
 
       - job: "Android Developer"
         company: "Campus Media"
