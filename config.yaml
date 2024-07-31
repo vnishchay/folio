@@ -17,232 +17,127 @@ Menus:
       url: https://medium.com/@nishchay.vns2000
       weight: 1
 
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 2
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
-
 params:
   title: "Nishchay's Portfolio"
-  description: Cool 
-  # staticPath: ""  # The path to serve the static files from
+  description: "Cool"
   favicon: "/images/me.jpeg"
 
   theme:
-    disableThemeToggle:
-    # defaultTheme: "light" # dark
+    disableThemeToggle: false
 
   font:
-    fontSize: 1.2rem # default: 1rem
-    fontWeight: 300 # default: 400
-    lineHeight: 1.2 # default: 1.5
-    textAlign: left # default: left
+    fontSize: 1.2rem
+    fontWeight: 300
+    lineHeight: 1.2
+    textAlign: left
 
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  darkmode:
+    textColor: 'blue'
+    secondaryTextColor: 'gray'
 
-    darkmode:
-      textColor: 'blue'
-      secondaryTextColor: 'gray'
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
-
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/images/portfolio.png" # Logo for the brand | default is the favicon variable
-    brandName: "Portfoio" # Brand name for the brand | default is the title variable
+    align: mx-auto
+    brandLogo: "/images/portfolio.png"
+    brandName: "Portfolio"
 
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
-
-  # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Nishchay."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    subtitle: "I build robust and scalable software solutions"
+    content: "A dedicated Software Engineer with experience in developing robust applications and system design. I leverage modern technologies to create efficient, reliable, and maintainable software systems."
     image: /images/hero.svg
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1dU8fit6SoKinfZl-Tt_QgCGxaxDNYPLr/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1nHKmiSC-c5vt7zC4eLt2LY_XX7u96_6x/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://www.github.com/codernishchay
         - icon: fab fa-twitter
           url: https://www.twitter.com/nishchay_v_
-      
-
-  # About
-  about:
-    enable: true
-    title: "About Me"
-    image: "/images/me.jpeg"
-    content: |-
-             Hi, I'm a Computer Science student who loves to build fast and effecient apps. 
-    skills:
-      enable: true
-      title: "few technologies I've been working with recently are:"
-      items:
-        - "JavaScript"
-        - "Golang"
-        - "Flutter"
-        - "C++"
-        - "SQL"
-        - "Mongodb"
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Software Development Intern"
-        company: "Wink.finance"
-        # companyUrl: "https://example.com"
-        date: "Sep 2022 - current"
+      - job: "Software Engineer"
+        company: "Teacher Tools Private Limited"
+        date: "Jan 2023 - Present"
         featuredLink:
           enable: true
-          # url: "https://play.google.com/store/apps/details?id=ml.campusmedia.userapp"
-        info:
-          enable: true
-        content: Worked closely with the design team to create a user-friendly and visually appealing landing page and cryptocurrency exchange frontend from scratch.
-                 Utilized a range of development skills, including HTML, CSS, JavaScript, and React, to build the frontend and ensure a smooth user experience.
-                 Collaborated with the blockchain team to integrate the exchange frontend with the underlying blockchain infrastructure, ensuring seamless functionality and security for users.
+        content: |-
+          - Enhanced Lambda cold start time by up to 20% through optimization of dataloaders and removal of dead GraphQL endpoints, resulting in a leaner codebase and faster execution.
+          - Monitored and optimized database queries, achieving significant improvements in overall system efficiency and response times.
+          - Revamped OpenAPI V1 and implemented OpenAPI V2, enhancing user experience and optimizing code structure for better maintainability.
+          - Developed scripts and packages to automate redundant tasks, significantly improving development efficiency and streamlining processes.
+          - Implemented multiple integrations for various features within platforms, utilized by thousands of users, enhancing functionality and user satisfaction.
 
-        # content: 
-      - job: "Software Development Intern"
+      - job: "Software Engineer Intern"
+        company: "Sozo.Finance"
+        date: "Sept 2022 - Jan 2023"
+        featuredLink:
+          enable: true
+        content: |-
+          - Spearheaded the development of a fully functional web application for a DeFi wallet utilizing Golang and React.js.
+          - Designed and implemented robust deployment strategies, integrating advanced analytics and optimizing CI/CD processes to enhance the reliability and efficiency of software delivery.
+
+      - job: "Software Engineer Intern"
         company: "Newton School"
-        companyUrl: "https://www.newtonschool.co/computerscience?utm_source=Ads&utm_medium=CS_Googlesmart+ADs&utm_campaign=Mia_CS_Googlesmart+ADs&gclid=CjwKCAjwquWVBhBrEiwAt1Kmwhrb70w4IRvw-uuclQ7GH0IgV5jWMWunQOaMxOxK8wRnB8ESHkoVtBoCWkYQAvD_BwE"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: false
-        content: Focused on the frontend development of the project, using reusable components and structured coding practices to reduce redundancies and improve efficiency.
-                 Improved the user experience by conducting testing using the Cypress framework to ensure a smooth and reliable product.
-                 Demonstrated strong attention to detail and a commitment to delivering high-quality work by implementing thorough testing and debugging processes.
-        
-      - job: "Software Development Intern"
-        company: "Campus Media"
-        # companyUrl: "https://example.com"
-        date: "Feb 2020 - Apr 2021"
+        date: "Apr 2023 - May 2023"
         featuredLink:
           enable: true
-          url: "https://play.google.com/store/apps/details?id=ml.campusmedia.userapp"
-        info:
-          enable: true
-        content: Improved the usability of the product by adding enhancements to the user interface and the "Receive Sharing Intent" feature, leading to increased adoption among over 500 users.
-                 Implemented cloud trigger functions to enable the sending of notifications to users.
-                 Demonstrated the ability to identify and address user needs by adding features that enhanced the product's functionality and usability.
-      
+        content: |-
+          - Streamlined development processes, reducing code redundancy and fostering the creation of reusable components.
+          - Developed a widely-utilized SQL playground with SQL course materials, including over 350 problems.
+          - Implemented the Cypress testing framework, resulting in efficiency gains and reduced development costs.
 
-
-    
   # Education
   education:
     enable: true
     index: true
     items:
-      - title: "B.Tech Computer Science and Engneering"
+      - title: "Bachelor of Engineering in Electrical and Electronics"
         school:
-          name: "Indian Institute of Information Technology Sricity"
+          name: "Indian Institute of Information Technology"
           url: "https://iiits.ac"
-        date: "2019 - 2023"
-        # GPA: "3.8 out of 5.0"
-        content: |-
-          Currently Attending my last year at institute
+        date: "Aug 2019 - Jul 2023"
+        GPA: "CGPA: 7.10"
+        featuredLink:
+          enable: false
 
-          Extracurricular Activities
-            - Created two major projects. 
-            - Lead Blogs and Podcasts team at IOTA
-
-      - title: "Intermediate"
+      - title: "12th"
         school:
           name: "Bal Vidyalaya Madhyamik School"
-          url : "" 
-        date: "2016 - 2018"
-        GPA : "81.5%"
+        date: "Aug 2016 - Jul 2018"
+        GPA: "Percentage: 83%"
         featuredLink:
           enable: false
-      
-      - title : "High School"
-        school:
-          name: "D.A.V Public School"
-          url: " "
-        date : "2015-2016"
-        GPA: "8.8 out of 10"
-        featuredLink:
-          enable: false
-          url: ""
 
   # Achievements
   achievements:
     enable: true
     items:
-      - title: Google Hash Code 
-        content: Secured AIR 417 and 1513 Global rank 
-        # url: https://example.com
+      - title: "Google Hash Code"
+        content: "Secured All India Rank (AIR) 418 and Global Rank 1593 out of over 20,000 participating teams"
 
-      - title: Geeks for Geeks Jobathon 
-        content: Secured AIR 49  
-        # url: https://example.com
-      
-      #  - title:  
-      #   content: Secured AIR 417 and 1513 Global rank 
-      #   # url: https://example.com
-    
-   
-   
-    
-  # projects
+      - title: "LeetCode"
+        content: "Ranked in the top 11% globally with a maximum score of 1773 points and completed over 500 coding challenges"
+
+      - title: "HackerRank"
+        content: "Earned 4 stars in SQL and 4 stars in Problem Solving"
+
+  # Projects
   projects:
     enable: true
     items:
-      - title: Interviwe Zone
-        content: An interview website, where people can connect and conduct interview
-        image: /images/interview-zone.png
-        featured:
-          name: Github
-          link: https://github.com/codernishchay/interview-zone
-        badges:
-          - "Node.js"
-          - "React.js"
-          - "WebRtc"
-          - "Websocket"
-          - "MongoDB"
-          - "Mongoose"
-      
-      - title: Urban Eatary
-        content: A food delivery website with awesome UI and admin panel.
+      - title: "Urban Eatary"
+        content: "Developed a comprehensive food delivery website with a secure role-based access control system using JWT authentication and an admin panel for efficient management of items and restaurant operations."
         image: /images/foodie.png
         featured:
-          name: Demo
-          link: https://foodie-eb5cd.web.app
+          name: "Live Demo"
+          link: "https://urban-eatary-front.web.app"
         badges:
           - "React.js"
           - "Firebase"
@@ -251,49 +146,56 @@ params:
           - "JWT"
         links:
           - icon: fab fa-github
-            url: https://github.com/codernishchay/urban-eatary-frontend
+            url: https://github.com/vnishchay/Urban-Eatary-Frontend
 
+      - title: "Interview Zone"
+        content: "Engineered a cutting-edge interview platform with real-time video calling using peer.js and robust bidirectional messaging with socket.io for dynamic user interactions."
+        image: /images/interview-zone.png
+        featured:
+          name: "GitHub"
+          link: "https://github.com/interview-zone"
+        badges:
+          - "Node.js"
+          - "React.js"
+          - "WebRTC"
+          - "WebSocket"
+          - "MongoDB"
+          - "Mongoose"
 
-      - title: SuperMarket Covid ABM
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: "SuperMarket Covid ABM"
+        content: "Developed a sophisticated agent-based model for analyzing COVID-19 spread in supermarkets using NetLogo and GIS."
         image: /images/netlogo.png
         featured:
-          name: Github
-          link: https://github.com/codernishchay/supermkt-covid-abm
+          name: "GitHub"
+          link: "https://github.com/vnishchay/supermkt-covid-abm"
         badges:
-          - "Netlogo"
+          - "NetLogo"
           - "GIS"
-          - "Github"
-        links:
-      
-      - title: Neuresta
-        content: A website to generate neurostyled images out of two input images.
+          - "GitHub"
+
+      - title: "Neuresta"
+        content: "Created a web application for generating neurostyled images from two input images using Django and Python."
         image: /images/neuresta.png
         featured:
-          name: Github
-          link: https://github.com/Shreyas-MS/WAD_NST
+          name: "GitHub"
+          link: "https://github.com/Shreyas-MS/WAD_NST"
         badges:
           - "HTML"
           - "CSS"
-          - "Javascript"
+          - "JavaScript"
           - "Django"
           - "Python"
-        links:
-      
-         
-      
 
-  #Contact
+  # Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
     email: nishchay.vns2000@gmail.com
-    btnName: Mail me
+    btnName: "Mail me"
 
   footer:
-    # recentPosts: false
     socialNetworks:
-      github: https://github.com/codernishchay
-      linkedin: https://www.linkedin.com/in/codernishchay/
+      github: https://github.com/vnishchay
+      linkedin: https://www.linkedin.com/in/vnishchay/
       twitter: https://twitter.com/nishchay_v_
       instagram: https://instagram.com/nishchay_v_
